@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" type="image/x-ico" href="http://www.lynbrookgrad.co.nf/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="http://www.lynbrookgrad.co.nf/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="mainstyles.css">
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+<BODY bgcolor="#FFFFFF">
+<title>2013 FBLA E-business, 5th Place | Graduates | LHS Grad '12-13</title>
+</head>
+
+
+<body>
+<div id="all">
+
+<div id="header">
+<div id="headbox">
+
+<!-- VIEW CART button code. --> 
+<a href="cart.php.html" title="View Cart">
+    <div id="viewcartbutt" class="empty" />
+    </div>
+</a>
+</div>
+<div id="headerb">
+<a href="index.html"><img id="logo" src="http://www.lynbrookgrad.co.nf/lhs.jpg" alt="Viking Grad"></a>
+<p class="headerb">GRAD</p>
+<p class="header">Lynbrook High School</br>Class of 2013</p>
+</div>
+</div>
+
+<div id="centercenteredmenu">
+<div id="centeredmenu">
+<ul>
+<li><a href="index.html">home</a></li>
+<li><a href="gradinfo.php.html">grad info</a></li>
+<li><a href="students.php.html" class="active">for graduates</a></li>
+<li><a href="friends-family.php.html">for guests</a></li>
+<li><a href="support.php.html">support</a></li>
+</ul>
+<br style="clear:left"/>
+</div>
+</div>
+
+<div id="studhome">
+<p class="gradtext"><span id="studtitle"><b>&#155; Reserve seats for all graduates.</b></span></br>
+Any graduating member of the senior Class of 2013 may reserve their seat at no cost.</br>
+You will receive a confirmation email within 24 hours.</br>
+(For demo, 7 digit IDs between 5000000 and 5100000 will work)
+</p>
+<div id="contactbox">
+    <p style="margin:8px;line-height:18px;">Need to change your seat or have any problems?</p>
+    <a href="contact.php.html">
+    <button type="button" id="directionbuttonb" >contact us</button></a>
+</div>
+
+<form id="studbuttons" action="students.php.html" method="POST">
+    <input type="text" name="id" id="cartinput" value="student ID" maxlength="7" onfocus="if (this.value=='student ID') this.value='';" onblur="if (this.value=='') this.value='student ID';"/>
+    <input type="text" name="seat" id="seatInput" value="seat number" maxlength="3" onfocus="if (this.value=='seat number') this.value='';" onblur="if (this.value=='') this.value='seat number';"/>
+    <input type="text" name="email" id="cartinput" value="email" onfocus="if (this.value=='email') this.value='';" onblur="if (this.value=='') this.value='email';"/>
+    <input type="submit" name="submitButton" id="studsubmit" value="reserve"title="Submit Seat Reservation">
+</form>
+<div style="clear:both"></div>
+
+<div id="resres">
+    </div>
+
+    <img src="seating-chart-png.PNG" id="stage">
+    <table id="seatTable">
+    <tr>
+   
+    <td class="free" onclick="document.getElementById('seatInput').value=0;">0</td><td class="taken">1</td><td class="taken">2</td><td class="free" onclick="document.getElementById('seatInput').value=3;">3</td><td class="free" onclick="document.getElementById('seatInput').value=4;">4</td><td class="taken">5</td><td class="taken">6</td><td class="taken">7</td><td class="free" onclick="document.getElementById('seatInput').value=8;">8</td><td class="free" onclick="document.getElementById('seatInput').value=9;">9</td><td class="free" onclick="document.getElementById('seatInput').value=10;">10</td><td class="free" onclick="document.getElementById('seatInput').value=11;">11</td><td class="free" onclick="document.getElementById('seatInput').value=12;">12</td><td class="free" onclick="document.getElementById('seatInput').value=13;">13</td><td class="free" onclick="document.getElementById('seatInput').value=14;">14</td>            </tr>
+            <tr>
+            <td class="free" onclick="document.getElementById('seatInput').value=15;">15</td><td class="free" onclick="document.getElementById('seatInput').value=16;">16</td><td class="taken">17</td><td class="free" onclick="document.getElementById('seatInput').value=18;">18</td><td class="free" onclick="document.getElementById('seatInput').value=19;">19</td><td class="free" onclick="document.getElementById('seatInput').value=20;">20</td><td class="taken">21</td><td class="free" onclick="document.getElementById('seatInput').value=22;">22</td><td class="free" onclick="document.getElementById('seatInput').value=23;">23</td><td class="free" onclick="document.getElementById('seatInput').value=24;">24</td><td class="taken">25</td><td class="free" onclick="document.getElementById('seatInput').value=26;">26</td><td class="free" onclick="document.getElementById('seatInput').value=27;">27</td><td class="free" onclick="document.getElementById('seatInput').value=28;">28</td><td class="free" onclick="document.getElementById('seatInput').value=29;">29</td>            </tr>
+            <tr>
+            <td class="free" onclick="document.getElementById('seatInput').value=30;">30</td><td class="free" onclick="document.getElementById('seatInput').value=31;">31</td><td class="free" onclick="document.getElementById('seatInput').value=32;">32</td><td class="free" onclick="document.getElementById('seatInput').value=33;">33</td><td class="taken">34</td><td class="free" onclick="document.getElementById('seatInput').value=35;">35</td><td class="free" onclick="document.getElementById('seatInput').value=36;">36</td><td class="taken">37</td><td class="free" onclick="document.getElementById('seatInput').value=38;">38</td><td class="free" onclick="document.getElementById('seatInput').value=39;">39</td><td class="taken">40</td><td class="taken">41</td><td class="taken">42</td><td class="free" onclick="document.getElementById('seatInput').value=43;">43</td><td class="free" onclick="document.getElementById('seatInput').value=44;">44</td>            </tr>
+            <tr>
+            <td class="taken">45</td><td class="free" onclick="document.getElementById('seatInput').value=46;">46</td><td class="free" onclick="document.getElementById('seatInput').value=47;">47</td><td class="free" onclick="document.getElementById('seatInput').value=48;">48</td><td class="free" onclick="document.getElementById('seatInput').value=49;">49</td><td class="free" onclick="document.getElementById('seatInput').value=50;">50</td><td class="free" onclick="document.getElementById('seatInput').value=51;">51</td><td class="taken">52</td><td class="taken">53</td><td class="free" onclick="document.getElementById('seatInput').value=54;">54</td><td class="free" onclick="document.getElementById('seatInput').value=55;">55</td><td class="free" onclick="document.getElementById('seatInput').value=56;">56</td><td class="free" onclick="document.getElementById('seatInput').value=57;">57</td><td class="free" onclick="document.getElementById('seatInput').value=58;">58</td><td class="free" onclick="document.getElementById('seatInput').value=59;">59</td>            </tr>
+            <tr>
+            <td class="free" onclick="document.getElementById('seatInput').value=60;">60</td><td class="free" onclick="document.getElementById('seatInput').value=61;">61</td><td class="free" onclick="document.getElementById('seatInput').value=62;">62</td><td class="free" onclick="document.getElementById('seatInput').value=63;">63</td><td class="taken">64</td><td class="free" onclick="document.getElementById('seatInput').value=65;">65</td><td class="taken">66</td><td class="free" onclick="document.getElementById('seatInput').value=67;">67</td><td class="free" onclick="document.getElementById('seatInput').value=68;">68</td><td class="taken">69</td><td class="free" onclick="document.getElementById('seatInput').value=70;">70</td><td class="free" onclick="document.getElementById('seatInput').value=71;">71</td><td class="free" onclick="document.getElementById('seatInput').value=72;">72</td><td class="free" onclick="document.getElementById('seatInput').value=73;">73</td><td class="free" onclick="document.getElementById('seatInput').value=74;">74</td>            </tr>
+            <tr>
+            <td class="free" onclick="document.getElementById('seatInput').value=75;">75</td><td class="free" onclick="document.getElementById('seatInput').value=76;">76</td><td class="free" onclick="document.getElementById('seatInput').value=77;">77</td><td class="free" onclick="document.getElementById('seatInput').value=78;">78</td><td class="free" onclick="document.getElementById('seatInput').value=79;">79</td><td class="free" onclick="document.getElementById('seatInput').value=80;">80</td><td class="free" onclick="document.getElementById('seatInput').value=81;">81</td><td class="free" onclick="document.getElementById('seatInput').value=82;">82</td><td class="free" onclick="document.getElementById('seatInput').value=83;">83</td><td class="free" onclick="document.getElementById('seatInput').value=84;">84</td><td class="free" onclick="document.getElementById('seatInput').value=85;">85</td><td class="free" onclick="document.getElementById('seatInput').value=86;">86</td><td class="free" onclick="document.getElementById('seatInput').value=87;">87</td><td class="free" onclick="document.getElementById('seatInput').value=88;">88</td><td class="free" onclick="document.getElementById('seatInput').value=89;">89</td>            </tr>
+            <tr>
+            <td class="free" onclick="document.getElementById('seatInput').value=90;">90</td><td class="free" onclick="document.getElementById('seatInput').value=91;">91</td><td class="free" onclick="document.getElementById('seatInput').value=92;">92</td><td class="taken">93</td><td class="taken">94</td><td class="taken">95</td><td class="free" onclick="document.getElementById('seatInput').value=96;">96</td><td class="free" onclick="document.getElementById('seatInput').value=97;">97</td><td class="free" onclick="document.getElementById('seatInput').value=98;">98</td><td class="free" onclick="document.getElementById('seatInput').value=99;">99</td><td class="taken">100</td><td class="free" onclick="document.getElementById('seatInput').value=101;">101</td><td class="free" onclick="document.getElementById('seatInput').value=102;">102</td><td class="free" onclick="document.getElementById('seatInput').value=103;">103</td><td class="free" onclick="document.getElementById('seatInput').value=104;">104</td>            </tr>
+            <tr>
+            <td class="free" onclick="document.getElementById('seatInput').value=105;">105</td><td class="free" onclick="document.getElementById('seatInput').value=106;">106</td><td class="free" onclick="document.getElementById('seatInput').value=107;">107</td><td class="free" onclick="document.getElementById('seatInput').value=108;">108</td><td class="free" onclick="document.getElementById('seatInput').value=109;">109</td><td class="free" onclick="document.getElementById('seatInput').value=110;">110</td><td class="free" onclick="document.getElementById('seatInput').value=111;">111</td><td class="free" onclick="document.getElementById('seatInput').value=112;">112</td><td class="free" onclick="document.getElementById('seatInput').value=113;">113</td><td class="free" onclick="document.getElementById('seatInput').value=114;">114</td><td class="free" onclick="document.getElementById('seatInput').value=115;">115</td><td class="free" onclick="document.getElementById('seatInput').value=116;">116</td><td class="free" onclick="document.getElementById('seatInput').value=117;">117</td><td class="free" onclick="document.getElementById('seatInput').value=118;">118</td><td class="free" onclick="document.getElementById('seatInput').value=119;">119</td>            </tr>
+            <tr>
+            <td class="free" onclick="document.getElementById('seatInput').value=120;">120</td><td class="free" onclick="document.getElementById('seatInput').value=121;">121</td><td class="free" onclick="document.getElementById('seatInput').value=122;">122</td><td class="free" onclick="document.getElementById('seatInput').value=123;">123</td><td class="free" onclick="document.getElementById('seatInput').value=124;">124</td><td class="free" onclick="document.getElementById('seatInput').value=125;">125</td><td class="taken">126</td><td class="free" onclick="document.getElementById('seatInput').value=127;">127</td><td class="free" onclick="document.getElementById('seatInput').value=128;">128</td><td class="free" onclick="document.getElementById('seatInput').value=129;">129</td><td class="free" onclick="document.getElementById('seatInput').value=130;">130</td><td class="free" onclick="document.getElementById('seatInput').value=131;">131</td><td class="free" onclick="document.getElementById('seatInput').value=132;">132</td><td class="free" onclick="document.getElementById('seatInput').value=133;">133</td><td class="taken">134</td>            </tr>
+            <tr>
+                
+    </tr>
+    </table>
+    </div>
+
+<div id="footer">
+<div id="infooter">
+<p class="footer" font-color="FFFFFF">&copy 2013 Lynbrook FBLA. All Rights Reserved</br><a href="support.php.html">About Us</a> | <a href="contact.php.html">Contact Us</a> | <a href="ticket.php.html">Ticketing</a> | <a href="faq.php.html">FAQs</a> | <a href="privacy.php.html">Privacy</a></p>
+<p class="footerb">No templates were used in the production of this website.</br>This website is optimized for mobile devices.</p> 
+</ div>
+</div>
+
+</div>
+
+</body>
+</html>
